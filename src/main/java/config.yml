@@ -1,0 +1,30 @@
+selector_name: "&6Server Selector"
+selector_item:
+    display_name: "&4Server Selector Item"
+    item: COMPASS
+    data: 0
+    slot: 1
+    lore:
+        - "Use this"
+        - "&aItem to open the GUI"
+    
+rows: 1
+slots:
+    -1:
+        display_name: "&8None"
+        item: STAINED_GLASS_PANE
+        data: 14
+        lore:
+            - "&4Nothing"
+    2:
+        display_name: "&4Factions &6Server"
+        item: DIAMOND_SWORD
+        data: 0
+        player_commands:
+            - server factions
+            - another command
+        console_commands:
+            - say Hello %player_name%
+        lore:
+            - "&aClick here"
+            - "&bTo join our factions server"

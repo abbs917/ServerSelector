@@ -1,0 +1,12 @@
+name: ServerSelector
+version: 1.0
+author: tkuiyeager1
+main: Main
+softdepend: [PlaceholderAPI]
+commands:
+    servergui:
+        usage: /<command>
+        description: Opens servers GUI
+    tpworld:
+        usage: /<command>
+        description: Teleports a player to a specific world
